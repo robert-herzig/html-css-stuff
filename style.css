@@ -5,11 +5,20 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* maybe it looks better if we put the background over everything instead of just the header */
+html { 
+    background-image: linear-gradient(rgba(119, 131, 179, 0.7), rgba(10, 20, 58, 0.7)), url(/img/background_test.png); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 /* Header class including background image  */
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(119, 131, 179, 0.7), rgba(10, 20, 58, 0.7)), url(/img/background_test.png);
+    /*background-image: linear-gradient(rgba(119, 131, 179, 0.7), rgba(10, 20, 58, 0.7)), url(/img/background_test.png);*/
     background-position: center;
     background-size: cover;
     position: relative;
@@ -64,21 +73,21 @@ nav img{
     width: 100%;
 }
 
-.text-box{
+.content-box{
     width: 90%;
     color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*move to center*/
     text-align: center;
 }
 
-.text-box h1{
+.content-box h1{
     font-size: 60px;
 }
 
-.text-box p{
+.content-box p{
     margin: 10px 0 40px;
     font-size: 14px;
     color: #fff;
@@ -102,9 +111,9 @@ nav img{
     transition: 0.75s;
 }
 
-/* for small screens etc -> media query -> smaller text at the critical elements */
+/* for small screens etc -> @media -> smaller text at the critical elements */
 @media(max-width: 700px){
-    .text-box h1{
+    .content-box h1{
         font-size: 20px;
     }
 
@@ -147,7 +156,13 @@ p{
 }
 
 .row{
-    margin-top: 10%;
+    width: 80%;
+    margin-top: 5%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*move to center*/
     display: flex;
     justify-content: space-between;
 }
