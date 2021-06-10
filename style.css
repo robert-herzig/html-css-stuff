@@ -24,6 +24,39 @@ html {
     position: relative;
 }
 
+/*Footer class*/
+.footer {
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(119, 131, 179, 1);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around; /*nice space around element, not too close together*/
+  }
+
+.footer ul li{
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.footer img{
+    border-radius: 5px;
+}
+
+/* Trying to split footer into top part (teaser) and bottom part (just info stuff)*/
+.footer_teaser{
+    position:absolute;
+    bottom: 0;
+}
+
+.footer_info{
+    position: relative;
+}
+
 /* Nav has some padding for beautification and flex for responsiveness (different screen sizes etc) */
 nav {
     display: flex;
