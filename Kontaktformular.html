@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="utf-8"/>
+ <title>Kontaktformular</title>
+ </head>
+ <body>
+
+ <form action="mailto:lk186@hdm-stuttgart.de"
+    method="post" enctype="multipart/form-data" 
+    accept-charset="utf-8"> 
+
+  
+  <h1>Kontaktformular</h1>
+  
+    <p> 
+        Mein Name ist Lena Kauderer, ich bin 24 Jahre und studiere Informationsdesign im 2.Semester. <br>
+        Endlich hat unser Magazin den Print und Webbereich erobert und hoffentlich auch eure Herzen. <br>
+    
+    <!-- Abstand einfügen-->
+    <!-- Bild von mir einfügen   <img src="selfhtml.png" alt="Selfhtml">-->
+        
+        Habt ihr Fragen, möchet Ihr euch austauschen oder habt Tipps für mich? <br/> 
+        Ich freue mich von Euch zu hören!  <br/> 
+        
+    </p> 
+
+    
+    <fieldset>
+        <legend>Erzähl mir was von Dir:</legend>
+
+ 
+    Anrede wählen: <br>
+    <input type="radio" id="Frau" name="Anrede" value="Frau"/>Frau  <br>
+    <input type="radio" id="Herr" name="Titel" value="Herr"/>Herr <br>
+    <input type="radio" id="They" name="Titel" value="They"/>They <br> 
+
+<!-- Abstand -->
+   
+    <label for="fname">Vorname:</label> <br>
+   <input type="text" id="fname" name="Vorname" size="30"
+            maxlength="50"  />  <br/>
+ <label for="lname">Nachname:</label><br>
+        <input type="text" id="lname" name="Nachname" size="30"  
+        maxlength="50"  />  <br/>
+      
+        
+<!-- Abstand -->
+
+
+    <input type="email" name="email" value="email@example.com">
+
+</fieldset>
+
+<!---Grund Kontaktaufnahme-->
+<label for="Grund" title="Grund">Anfragegrund</label>  <br>
+                <input type="text" name="Anfragegrund" 
+                    id="Gruende" list="Grund"> 
+                        <datalist id="Grund"> 
+                        <option value="Frage" />
+                        <option value="Feedback" /> 
+                        <option value="Verbesserungsvorschlag" />
+                        <option value="Kollaborationsanfrage" />
+                        <option value="Sonstiges" />
+                    </datalist>
+
+                    <br/>
+
+<p>
+<textarea name="Feldname" rows="10" cols="50">
+    Hier ist Platz für deine Anfrage!
+    </textarea>
+
+    <br/>
+
+rate my website:
+    <input type="range" name="range" value="3" min="0" max="10">
+    <br/>
+</p>
+
+
+<br/>
+
+    <input type="submit">
+    <input type="reset" value="Zurücksetzen" />
+
+                        </form>
+ </body>

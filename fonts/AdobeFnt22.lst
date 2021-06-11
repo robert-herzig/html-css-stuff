@@ -1,0 +1,125 @@
+%!Adobe-FontList 1.22
+%Locale:0x407
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HdMFrutigerNextPro-Bold
+FamilyName:HdM Frutiger Next Pro
+StyleName:Bold
+FullName:HdM Frutiger Next Pro Bold
+MenuName:HdM Frutiger Next Pro Medium
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Paesl\Desktop\Tutor\Styleguide_12.01\Document fonts\HdMFrutigerNextPro-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:92368
+FileModTime:1590657361
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,HdM Frutiger Next Pro Bold
+NameArray:0,Win,1,HdM Frutiger Next Pro Medium
+NameArray:0,Win,16,HdM Frutiger Next Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HdMFrutigerNextPro-Light
+FamilyName:HdM Frutiger Next Pro
+StyleName:Light
+FullName:HdM Frutiger Next Pro Light
+MenuName:HdM Frutiger Next Pro Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Paesl\Desktop\Tutor\Styleguide_12.01\Document fonts\HdMFrutigerNextPro-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:91164
+FileModTime:1590657381
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,HdM Frutiger Next Pro Light
+NameArray:0,Win,1,HdM Frutiger Next Pro Light
+NameArray:0,Win,16,HdM Frutiger Next Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Paesl\Desktop\Tutor\Styleguide_12.01\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:1579522544
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Tahoma
+FamilyName:Tahoma
+StyleName:Regular
+FullName:Tahoma
+MenuName:Tahoma
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Paesl\Desktop\Tutor\Styleguide_12.01\Document fonts\tahoma.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:939280
+FileModTime:1575709717
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Tahoma
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Tahoma-Bold
+FamilyName:Tahoma
+StyleName:Bold
+FullName:Tahoma Bold
+MenuName:Tahoma
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Paesl\Desktop\Tutor\Styleguide_12.01\Document fonts\tahomabd.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:867988
+FileModTime:1575709717
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Tahoma
+%EndFont
+
