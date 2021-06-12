@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+    background: rgb(247, 180, 180);
+}
+
+div.all {
+    background: #b2ad7f;
+    padding-top: 25%;
+    background-repeat: no-repeat;
+    z-index: 10;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+div.all > header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(226, 221, 221, 0.658);
+}
+
+img.logo{
+    position: fixed;
+    top: 2%;
+    left: 5%;
+    width: 35px;
+    z-index: 11;
+}
+
+/* Nav has some padding for beautification and flex for responsiveness (different screen sizes etc) */
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* original image was too big so we rescale here */
+nav img{
+    width: 150px;
+}
+
+/* we want the navigation buttons on the right site as it looks better */
+.nav-links{
+    position: absolute;
+    /* flex: 1; */
+    text-align: right;
+    
+}
+
+/* more responsiveness (inline-block) and padding for beautification
++ list-style none so we don't get numbers or points in our navigation */
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 80px;
+    margin: 2px 2px;
+    position: relative;
+    background-color: rgba(195, 199, 199, 0.712);
+    border-radius: 5px;
+}
+
+/* Color and size of nav elements */
+.nav-links ul li a{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    /* font-size: ; */
+}
+
+.nav-links{
+    position: relative;
+    flex: 1;  
+    text-align: right;
+    
+}
+
+#subnav{
+    position: absolute;
+    opacity: 0;
+    transition-delay: 0.5s;
+    float: left;
+    list-style-position:inside;
+}
+
+#Artikel:hover~#subnav{
+    opacity: 1.0;
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+#subnav:hover{
+    opacity: 1.0;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+.nav-links ul li::after{
+    width: 0%;
+    height: 2px;
+    background: #9e5f3a;
+    margin: auto;
+    display: block;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
